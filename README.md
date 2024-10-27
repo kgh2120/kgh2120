@@ -1,3 +1,5 @@
+
+
 ## About Me 👋
 **김규현 (Kim KyooHyun)**
 - [Blog](https://dev-qhyun.tistory.com)
@@ -38,13 +40,13 @@
 
 ### 🕮 blogs
 
+<a href=https://dev-qhyun.tistory.com/32>[Java] Steam API 총 정리</a></br>게시일자 : 2024.10.24 16:51:31</br></br><a href=https://dev-qhyun.tistory.com/31>[BOJ/백준] 5052 - 전화번호 목록(Java,G4)</a></br>게시일자 : 2024.10.21 23:56:26</br></br><a href=https://dev-qhyun.tistory.com/30>[BOJ/백준] 12784 - 인하니카 공화국 (Java,G3)</a></br>게시일자 : 2024.10.16 22:45:02</br></br><a href=https://dev-qhyun.tistory.com/29>[북스터디] 가상 면접 사례로 배우는 대규모 시스템 설계 기초 8장 URL 단축기 설계 발표 자료</a></br>게시일자 : 2024.07.21 17:40:05</br></br><a href=https://dev-qhyun.tistory.com/28>[cache] Local Cache와 Global Cache</a></br>게시일자 : 2024.07.16 17:57:30</br></br>
+    ### Stats
 
+    | Github Streak| Github Stats|
+    |:---:|:---:|
+    |<img src="https://streak-stats.demolab.com?user=kgh2120&theme=dark&hide_border=true&locale=ko&date_format=%5BY.%5Dn.j&mode=weekly" width=300 />|<img src="https://github-readme-stats.vercel.app/api?username=kgh2120&show_icons=true" width=300 />|
+    | **Most Language** | **Beakjoon** |
+    |<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kgh2120&layout=compact" width=300 />|<img src="http://mazassumnida.wtf/api/generate_badge?boj=bzzamta" witdh=300 />
 
-
-### Stats
-
-| Github Streak| Github Stats|
-|:---:|:---:|
-|<img src="https://streak-stats.demolab.com?user=kgh2120&theme=dark&hide_border=true&locale=ko&date_format=%5BY.%5Dn.j&mode=weekly" width=300 />|<img src="https://github-readme-stats.vercel.app/api?username=kgh2120&show_icons=true" width=300 />|
-| **Most Language** | **Beakjoon** |
-|<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kgh2120&layout=compact" width=300 />|<img src="http://mazassumnida.wtf/api/generate_badge?boj=bzzamta" witdh=300 />
+  
