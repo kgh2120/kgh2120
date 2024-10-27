@@ -2,13 +2,24 @@
   "name": "kgh2120",
   "version": "1.0.0",
   "description": "<div align=center>\r <img src=\"https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=KyooHyun&fontSize=90\" />",
-  "main": "index.js",
+  "main": "readmeUpdate.js",
   "scripts": {
+    "start" : "node readmeUpdate.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kgh2120/kgh2120.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kgh2120/kgh2120/issues"
+  },
+  "homepage": "https://github.com/kgh2120/kgh2120#readme",
+
   "dependencies": {
     "dayjs": "^1.11.13",
     "rss-parser": "^3.13.0"
