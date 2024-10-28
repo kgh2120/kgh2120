@@ -3,6 +3,7 @@ const dayjs = require("dayjs");
 const Parser = require("rss-parser");
 const timezone = require("dayjs/plugin/timezone");
 const utc = require("dayjs/plugin/utc");
+const { log } = require("console");
 dayjs.extend(utc);
 dayjs.extend(timezone);
 dayjs.tz.setDefault("Asia/Seoul");
@@ -47,7 +48,7 @@ let text = `
 - [[Github](https://github.com/kgh2120/mmm)] 직장 내 막내들을 위한 음식 선호도 기반 점심 메뉴 추천 서비스 '막내야 뭐 먹을래?' 백엔드 개발 (24/02/19 ~ 24/04/05)
 - [[Github](https://github.com/kgh2120/goumunity-backend)] 지역 밀착 절약 정보 커뮤니티 '거뮤니티' 백엔드 개발 (24/01/03 ~ 24/02/16)
 
-### 🕮 blogs
+### 📙 blogs
 
 `;
 
@@ -68,26 +69,29 @@ const parser = new Parser({
     console.log(`추가될 제목: ${title}`);
     console.log(`추가될 링크: ${link}`);
 
-    const date = dayjs(pubDate).add(9, "hours").format("YYYY.MM.DD HH:mm:ss");
-    text += `<a href=${link}>${title}</a></br>`;
-    text += `게시일자 : ${date}</br></br>`;
+    const date = dayjs(pubDate).add(9, "hours").format("YY/MM/DD");
+    text += `<a href=${link}>${i}.${title}</a> (${date})</br>`;
+    text += `\n`
   }
-
   text += `
-    ### Stats
 
-    | Github Streak| Github Stats|
-    |:---:|:---:|
-    |<img src="https://streak-stats.demolab.com?user=kgh2120&theme=dark&hide_border=true&locale=ko&date_format=%5BY.%5Dn.j&mode=weekly" width=300 />|<img src="https://github-readme-stats.vercel.app/api?username=kgh2120&show_icons=true" width=300 />|
-    | **Most Language** | **Beakjoon** |
-    |<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kgh2120&layout=compact" width=300 />|<img src="http://mazassumnida.wtf/api/generate_badge?boj=bzzamta" witdh=300 />
+### Stats
+
+| Github Streak| Github Stats|
+|:---:|:---:|
+|<img src="https://streak-stats.demolab.com?user=kgh2120&theme=dark&hide_border=true&locale=ko&date_format=%5BY.%5Dn.j&mode=weekly" width=300 />|<img src="https://github-readme-stats.vercel.app/api?username=kgh2120&show_icons=true" width=300 />|
+| **Most Language** | **Beakjoon** |
+|<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kgh2120&layout=compact" width=300 />|<img src="http://mazassumnida.wtf/api/generate_badge?boj=bzzamta" witdh=300 />
 
   `
 
+
   // README.md 파일 작성
-  fs.writeFileSync("README.md", text, "utf8", (e) => {
-    console.log(e);
-  });
+  // fs.writeFileSync("README.md", text, "utf8", (e) => {
+  //   console.log(e);
+  // });
 
   console.log("업데이트 완료");
+
+  console.log(text);
 })();
