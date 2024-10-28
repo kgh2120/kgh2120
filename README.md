@@ -32,13 +32,13 @@
 - [[Github](https://github.com/SSARTEL-10th/JPTS_bookstudy)] 개발자가 반드시 알아야 할 자바 성능 튜닝 이야기 북 스터디(23.09.06 ~ 23.10.20)
 
 
-### 🖥 Projects
+### 🖥 Project
 
 - [[Github](https://github.com/kgh2120/hybm)] 1인 가구의 냉장고 재고 관리 서비스 '마트.. 다녀오셨어요?' 백엔드 개발 (24.04.08 ~ 24.05.19)
 - [[Github](https://github.com/kgh2120/mmm)] 직장 내 막내들을 위한 음식 선호도 기반 점심 메뉴 추천 서비스 '막내야 뭐 먹을래?' 백엔드 개발 (24.02.19 ~ 24.04.05)
 - [[Github](https://github.com/kgh2120/goumunity-backend)] 지역 밀착 절약 정보 커뮤니티 '거뮤니티' 백엔드 개발 (24.01.03 ~ 24.02.16)
 
-### 📙 blogs
+### 📙 Blog
 
 - <a href=https://dev-qhyun.tistory.com/32>[Java] Steam API 총 정리</a> (24.10.25)</br>
 - <a href=https://dev-qhyun.tistory.com/31>[BOJ/백준] 5052 - 전화번호 목록(Java,G4)</a> (24.10.22)</br>
