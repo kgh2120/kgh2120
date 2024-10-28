@@ -83,13 +83,13 @@ const parser = new Parser({
 | **Most Language** | **Beakjoon** |
 |<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kgh2120&layout=compact" width=300 />|<img src="http://mazassumnida.wtf/api/generate_badge?boj=bzzamta" witdh=300 />
 
-  `
+`
 
 
   // README.md 파일 작성
-  // fs.writeFileSync("README.md", text, "utf8", (e) => {
-  //   console.log(e);
-  // });
+  fs.writeFileSync("README.md", text, "utf8", (e) => {
+    console.log(e);
+  });
 
   console.log("업데이트 완료");
 
