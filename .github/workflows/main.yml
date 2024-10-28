@@ -26,5 +26,5 @@ jobs:
           git add .
           git config --local user.email "kgh2120@gmail.com"
           git config --local user.name "kgh2120"
-          git commit -m "Update README.md"
+          git commit -m "Update README.md" || echo "변경된 내용이 없습니다."
           git push
