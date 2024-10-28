@@ -44,9 +44,9 @@ let text = `
 
 ### 🖥 Projects
 
-- [[Github](https://github.com/kgh2120/hybm)] 1인 가구의 냉장고 재고 관리 서비스 '마트.. 다녀오셨어요?' 백엔드 개발 (24/04/08 ~ 24/05/19)
-- [[Github](https://github.com/kgh2120/mmm)] 직장 내 막내들을 위한 음식 선호도 기반 점심 메뉴 추천 서비스 '막내야 뭐 먹을래?' 백엔드 개발 (24/02/19 ~ 24/04/05)
-- [[Github](https://github.com/kgh2120/goumunity-backend)] 지역 밀착 절약 정보 커뮤니티 '거뮤니티' 백엔드 개발 (24/01/03 ~ 24/02/16)
+- [[Github](https://github.com/kgh2120/hybm)] 1인 가구의 냉장고 재고 관리 서비스 '마트.. 다녀오셨어요?' 백엔드 개발 (24.04.08 ~ 24.05.19)
+- [[Github](https://github.com/kgh2120/mmm)] 직장 내 막내들을 위한 음식 선호도 기반 점심 메뉴 추천 서비스 '막내야 뭐 먹을래?' 백엔드 개발 (24.02.19 ~ 24.04.05)
+- [[Github](https://github.com/kgh2120/goumunity-backend)] 지역 밀착 절약 정보 커뮤니티 '거뮤니티' 백엔드 개발 (24.01.03 ~ 24.02.16)
 
 ### 📙 blogs
 
@@ -69,8 +69,8 @@ const parser = new Parser({
     console.log(`추가될 제목: ${title}`);
     console.log(`추가될 링크: ${link}`);
 
-    const date = dayjs(pubDate).add(9, "hours").format("YY/MM/DD");
-    text += `<a href=${link}>${i}.${title}</a> (${date})</br>`;
+    const date = dayjs(pubDate).add(9, "hours").format("YY.MM.DD");
+    text += `- <a href=${link}>${title}</a> (${date})</br>`;
     text += `\n`
   }
   text += `
