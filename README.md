@@ -40,11 +40,11 @@
 
 ### 📙 Blog
 
+- <a href=https://dev-qhyun.tistory.com/33>BufferedReader와 Scanner의 성능 차이의 원인은?</a> (24.11.19)</br>
 - <a href=https://dev-qhyun.tistory.com/32>[Java] Steam API 총 정리</a> (24.10.24)</br>
 - <a href=https://dev-qhyun.tistory.com/31>[BOJ/백준] 5052 - 전화번호 목록(Java,G4)</a> (24.10.21)</br>
 - <a href=https://dev-qhyun.tistory.com/30>[BOJ/백준] 12784 - 인하니카 공화국 (Java,G3)</a> (24.10.16)</br>
 - <a href=https://dev-qhyun.tistory.com/29>[북스터디] 가상 면접 사례로 배우는 대규모 시스템 설계 기초 8장 URL 단축기 설계 발표 자료</a> (24.07.21)</br>
-- <a href=https://dev-qhyun.tistory.com/28>[cache] Local Cache와 Global Cache</a> (24.07.16)</br>
 
 
 ### Stats
