@@ -40,11 +40,11 @@
 
 ### 📙 Blog
 
+- <a href=https://dev-qhyun.tistory.com/36>[BOJ/백준] 2957 - 이진 탐색 트리(Java,P5)</a> (24.11.27)</br>
 - <a href=https://dev-qhyun.tistory.com/35>[MySQL] Stored Function이란?</a> (24.11.27)</br>
 - <a href=https://dev-qhyun.tistory.com/34>[북스터디] 대규모 시스템 설계 기초 - 12장 채팅 시스템 설계 발표자료</a> (24.11.21)</br>
 - <a href=https://dev-qhyun.tistory.com/33>BufferedReader와 Scanner의 성능 차이의 원인은?</a> (24.11.19)</br>
 - <a href=https://dev-qhyun.tistory.com/32>[Java] Steam API 총 정리</a> (24.10.24)</br>
-- <a href=https://dev-qhyun.tistory.com/31>[BOJ/백준] 5052 - 전화번호 목록(Java,G4)</a> (24.10.21)</br>
 
 
 ### Stats
