@@ -40,11 +40,11 @@
 
 ### 📙 Blog
 
+- <a href=https://dev-qhyun.tistory.com/40>무중단 배포 개념 정리</a> (25.05.03)</br>
 - <a href=https://dev-qhyun.tistory.com/39>로컬 캐시 동기화(Local Cache Synchronization)</a> (25.02.20)</br>
 - <a href=https://dev-qhyun.tistory.com/38>[MySQL] Index 기본 개념 및 사용법</a> (25.01.16)</br>
 - <a href=https://dev-qhyun.tistory.com/37>[MySQL] Stored Procedure</a> (24.12.16)</br>
 - <a href=https://dev-qhyun.tistory.com/36>[BOJ/백준] 2957 - 이진 탐색 트리(Java,P5)</a> (24.11.27)</br>
-- <a href=https://dev-qhyun.tistory.com/35>[MySQL] Stored Function이란?</a> (24.11.27)</br>
 
 
 ### Stats
